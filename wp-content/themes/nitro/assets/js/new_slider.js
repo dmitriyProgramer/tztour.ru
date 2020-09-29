@@ -1,6 +1,6 @@
 $(document).ready(function(e) {
 	if( /test=true/.test( location.search ) ){
-		insert_new_slider();
+		setTimeout(insert_new_slider, 2000);
 	}
 });
 
@@ -52,30 +52,3 @@ insert_new_slider = function(){
 	  ]
 	});
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
