@@ -1,5 +1,7 @@
 $(document).ready(function(e) {
-	insert_new_slider()
+	if( /test=true/.test( location.search ) ){
+		insert_new_slider();
+	}
 });
 
 insert_new_slider = function(){
@@ -50,7 +52,6 @@ insert_new_slider = function(){
 	  ]
 	});
 }
-
 
 
 
