@@ -26,7 +26,7 @@ insert_new_slider = function(){
 	  infinite: true,
 	  slidesToShow: 4,
 	  slidesToScroll: 1,
-	  autoplay: true,
+	  //autoplay: true,
 	  autoplaySpeed: 2000,
 	  adaptiveHeight: true,
 	  centerPadding: '30px',
