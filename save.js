@@ -5,6 +5,6 @@ $(document).ready(function(e) {
 		$('head').append('<link rel="stylesheet" type="text/css" href="wp-content/themes/nitro/assets/css/call_style.css"/>');
 		$('head').append('<link rel="stylesheet" type="text/css" href="wp-content/themes/nitro/assets/css/call_style_2.css"/>');
 		$('head').append('<script type="text/javascript" src="wp-content/themes/nitro/assets/js/key_phone.js"></script>');
-		$('head').append('<script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>');
+		//$('head').append('<script type="text/javascript" src="//tourvisor.ru/module/init.js"></script>');
 	}
 });
